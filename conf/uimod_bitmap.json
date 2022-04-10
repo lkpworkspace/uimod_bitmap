@@ -1,0 +1,37 @@
+{
+    "_lib":"libuimod_bitmap.so",
+    "_func":{
+        "draw":{
+            "_input":[
+                {
+                    "type":"bpbase.Int",
+                    "name":"width"
+                },
+                {
+                    "type":"bpbase.Int",
+                    "name":"height"
+                },
+                {
+                    "type":"bpbase.UInt32Ary",
+                    "name":"pixels"
+                }
+            ],
+            "_output":[
+                {
+                    "type":"bpbase.UInt32Ary",
+                    "name":"state"
+                }
+            ]
+        },
+        "example":{
+            "_input":[
+            ],
+            "_output":[
+                {
+                    "type":"bpbase.Int",
+                    "name":"state"
+                }
+            ]
+        }
+    }
+}
