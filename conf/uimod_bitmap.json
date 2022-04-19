@@ -4,11 +4,11 @@
         "draw":{
             "_input":[
                 {
-                    "type":"bpbase.Int",
+                    "type":"bpbase.Int32",
                     "name":"width"
                 },
                 {
-                    "type":"bpbase.Int",
+                    "type":"bpbase.Int32",
                     "name":"height"
                 },
                 {
@@ -28,7 +28,7 @@
             ],
             "_output":[
                 {
-                    "type":"bpbase.Int",
+                    "type":"bpbase.Int32",
                     "name":"state"
                 }
             ]
